@@ -1,6 +1,6 @@
 # TUSOME
 
- A children's books application that  displays bbos mostly illustrated books for children under 10 to read. 
+ A children's books application that  displays various books mostly illustrated books for children under 10 to read. 
 
 ## Getting Started
 * Clone this repository to your local computer and activate the virtual environment by entering  ```source              virtual/bin/activate``` from the terminal.
