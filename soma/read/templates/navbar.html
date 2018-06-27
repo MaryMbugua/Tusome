@@ -30,6 +30,17 @@
         padding-right: 10%;
         padding-left: 10%;
     }
+    .hdy{
+        color: #000000;
+        font-weight: bolder;
+    }
+    a{
+        color: #000000;
+        font-weight: bolder;
+    }
+    .navbar{
+        background-image: url(https://images.unsplash.com/photo-1524638765509-4484bf521693?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=8f75d74dd4218df97f06c8dd127e1bb9&auto=format&fit=crop&w=500&q=60);
+    }
   </style>
 
 
@@ -49,7 +60,7 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand" href="#">Tusome</a>
+            <a class="navbar-brand hdy" href="{% url 'welcome' %}">Tusome</a>
           </div>
       
           <!-- Collect the nav links, forms, and other content for toggling -->
@@ -60,8 +71,8 @@
             </ul>
             
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="{% url 'about' %}">About</a></li>
-              <li><a href="{% url 'contribute' %}">Be a Contributor</a></li>
+              <li><a href="{% url 'about' %}" class="hdy">About</a></li>
+              <li><a href="{% url 'contribute' %}" class="hdy">Be a Contributor</a></li>
             </ul>
           </div><!-- /.navbar-collapse -->
         </div><!-- /.container-fluid -->
