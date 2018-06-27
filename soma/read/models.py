@@ -9,5 +9,6 @@ class Enquiry(models.Model):
 class Vitabu(models.Model):
     # file will be uploaded to MEDIA_ROOT/uploads
     ifuku = models.FileField(upload_to='uploads/')
+    ifuku_image = models.ImageField(upload_to = 'uploads/', blank=True)
     
     
