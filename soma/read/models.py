@@ -6,6 +6,8 @@ class Enquiry(models.Model):
     message = models.CharField(max_length=180, null=True)
 
 
-
+class vitabu(models.Model):
+    # file will be uploaded to MEDIA_ROOT/uploads
+    ifuku = models.FileField(upload_to='uploads/')
     
     
